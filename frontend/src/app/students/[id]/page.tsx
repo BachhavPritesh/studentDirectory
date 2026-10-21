@@ -19,7 +19,7 @@ export default async function StudentPage({
     <div className="p-6">
       <Link href="/">Back to students</Link>
 
-      <div className="mt-4">
+      <div className="mt-4 w-full flex flex-col justify-center items-center border ">
         <Image
           src={student.image}
           alt={student.name}
